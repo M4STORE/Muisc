@@ -21,7 +21,7 @@ The commands I currently support are:
             [
                 [
                     InlineKeyboardButton(
-                        "Group 💬", url="https://t.me/MizoInFoTel11"
+                        "Group 💬", url="https://t.me/MizoInFoTel1"
                     ),
                     InlineKeyboardButton(
                         "Channel 📣", url="https://t.me/MizoInFoTel14"
