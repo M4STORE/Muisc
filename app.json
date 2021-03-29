@@ -1,8 +1,8 @@
 {
-  "name": "MusicBot",
+  "name": "Music Player Bot",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/TheVaders/MusicBot",
+  "repository": "https://github.com/ZauteKm/MusicBot",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
@@ -27,7 +27,7 @@
       "required": true
     },
     "SUDO_USERS": {
-      "description": "List of user IDs counted as admin everywhere (separated by space).",
+      "description": "List of user IDs counted as admin everywhere (separated by space). Get from @DingdiBot",
       "required": true
     },
     "DURATION_LIMIT": {
