@@ -24,9 +24,7 @@ async def play(_, message: Message):
     if audio:
         if round(audio.duration / 60) > DURATION_LIMIT:
             raise DurationLimitError(
-                f"**{bn} :-** لايمكن تشغيل هذه الاغنيه ❌
-                لانها اكبر من 65mb 
-                ارسل اغنيه اقل تخزينا من فضلك 🎶"
+                f"**{bn} :-**  مقطع الفيديو هذا أطول من  {DURATION_LIMIT} minute(s) لايمكن تحميله \n يسمح بالمقطع ان يكون {audio.duration / 60} minute(s)"
             )
 
         file_name = get_file_name(audio)
