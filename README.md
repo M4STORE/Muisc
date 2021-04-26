@@ -1,11 +1,11 @@
-<h1 align="centre">🎶 Music Bot 🎶</h1>
+<h1 align="centre">🎶 𝗠𝗨𝗦𝗜𝗖 𝗦𝗧𝗢𝗥𝗠 🎶</h1>
 
 ## Requirements 📝
 
 - FFmpeg
-- NodeJS [nodesource.com](https://nodesource.com/)
+- Dev [- ᴀʜᴍᴀᴅ ᴀʟ ʙᴀʀᴏɴ⁦ .](https://t.me/hhmhhh)
 - Python 3.7+
-- [PyTgCalls](https://github.com/pytgcalls/pytgcalls)
+- [Channel 𝗠𝗨𝗦𝗜𝗖 𝗦𝗧𝗢𝗥𝗠](https://t.me/z44z4)
 
 <h2 align="centre">⚙️ Set Up ⚙️</h3>
 
@@ -17,18 +17,17 @@ Get STRING_NAME from here:
 
 [![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@ZauteKm/generate-pyrogram-session-string#main.py)
 
-### Mandatory Vars.
+### ستحتاج الى.
 
-- Some Of The Mandatory Vars Are :-
-   - `API_ID` :  Give API_ID of your Alternate Telegram Account.
-   - `API_HASH` :  Give API_HASH of your Alternate Telegram Account.
-   - `STRING_NAME` :  Make a string session from [here](https://replit.com/@ZauteKm/generate-pyrogram-session-string#main.py)
-   - `BOT_TOKEN` :  Make a Bot from [@Botfather](https://t.me/botfather) and fill it's bot token.
-   - `SUDO_USERS` :  Fill Userid of yhe users whom you want to be able to control the bot. You can add multiple id by giving a space in b/w each id. Get from [@DingdiBot](http://t.me/DingdiBot)
+- بعض المعلومات المهمه قبل التنصيب مثل :-
+   - `API_ID` :  ايدي خاص بمعلومات التليجرام .
+   - `API_HASH` :  الهاش ايدي ايضا خاص بحسابك على التيليجرام.
+   - `STRING_NAME` :  كليشه معلومات حسابك تستطيع احضارها من [اضغط هنا](https://replit.com/@ZauteKm/generate-pyrogram-session-string#main.py)
+   - `BOT_TOKEN` :  توكن البوت الخاص بك من بوت فاذر [@Botfather](https://t.me/botfather)
+   - `SUDO_USERS` :  هنا تقوم باحضار ايدي الحساب الخاص بك [@DingdiBot](http://t.me/DingdiBot)
 
 ## Credits
 
-- [Roj](https://github.com/rojserbest): main developer
-- [Marvin](https://github.com/BlackStoneReborn): bug reporter
-- [Laky](https://github.com/Laky-64) & [Andrew](https://github.com/AndrewLaneX): PyTgCalls
-- [Original Repo](https://github.com/suprojects/CallsMusic)
+- [- ᴀʜᴍᴀᴅ ᴀʟ ʙᴀʀᴏɴ⁦ .](https://t.me/hhmhhh): المطور
+- [𝗠𝗨𝗦𝗜𝗖 𝗦𝗧𝗢𝗥𝗠](https://t.me/z44z4): قناة المطور
+- [Black Team](https://t.me/CQCQQ) & [api php](https://t.me/TJJTJ)
