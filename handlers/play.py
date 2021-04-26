@@ -35,7 +35,7 @@ async def play(_, message: Message):
     elif url:
         file_path = await converter.convert(youtube.download(url))
     else:
-        return قم بالرد على الاغنيه او الرابط اولا ♻️
+        return await message.reply_text(f"**{bn} :-** قم بالرد على الاغنيه او الرابط اولا ♻️
           ثم ارسل /play لتشغيلها 🎶")
 
     if message.chat.id in callsmusic.pytgcalls.active_calls:
