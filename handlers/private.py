@@ -9,27 +9,28 @@ from helpers.filters import other_filters2
 async def start(_, message: Message):
     await message.reply_sticker("CAACAgQAAx0CTv65QgABBfJlYF6VCrGMm6OJ23AxHmD6qUSWESsAAhoQAAKm8XEeD5nrjz5IJFYeBA")
     await message.reply_text(
-        f"""**Hey, I'm **{bn}** 🎵
+        f"""**مرحبا انا **{bn}** 🎵
 
-I can play music in your group's voice call. Developed by [ZauTe Km](https://t.me/ZauTeKm).
+بامكاني تشغيل الاغاني في المكالمات الجماعيه 
+قم برفعي  مشرف في قناتك مع البوت المساعد [𝗠𝗨𝗦𝗜𝗖 𝗦𝗧𝗢𝗥𝗠](https://t.me/MUSIC_VOICEY).
 
-Add me to your group and play music freely!**
+قم باضافتي الى مجموعتك لتبدأ الحفله 🎶**
         """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🛠 Helpful Command 🛠", url="https://telegra.ph/VC-Music-Player-Bot-Helpful-Commands-04-17")
+                        "🛠 لطلب المساعده 🛠", url="https://t.me/hhmhhh")
                   ],[
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/ZauTeSupport"
+                        "💬 قناة للشروحات", url="https://t.me/in_arrray"
                     ),
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/TGBotSzK"
+                        "🔊 قناتي", url="https://t.me/CQCQQ"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "➕ Add To Your Group ➕", url="https://t.me/zK_GvCBot?startgroup=true"
+                        "➕  اضفني الى مجموعتك ➕", url="https://t.me/zK_GvCBot?startgroup=true"
                     )]
             ]
         ),
@@ -38,12 +39,12 @@ Add me to your group and play music freely!**
 
 @Client.on_message(filters.command("start") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
-      await message.reply_text("""**Group Music Player Online ✅**""",
+      await message.reply_text("""** تم تفعيل البوت بنجاح ✅**""",
       reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/ZauTeKm")
+                        "🔊 قناتي الخاصه", url="https://t.me/z44z4")
                 ]
             ]
         )
