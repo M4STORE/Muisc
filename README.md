@@ -15,7 +15,7 @@
 
 Get STRING_NAME from here:
 
-[![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@ZauteKm/generate-pyrogram-session-string#main.py)
+[![GenerateString](https://img.shields.io/badge/repl.it-generateString-redblack)](https://replit.com/@ZauteKm/generate-pyrogram-session-string#main.py)
 
 ### ستحتاج الى.
 
