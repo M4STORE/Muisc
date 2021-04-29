@@ -41,7 +41,7 @@ async def play(_, message: Message):
     else:
         callsmusic.pytgcalls.join_group_call(message.chat.id, file_path)
         await message.reply_text(f"**{bn} :-** تم تشغيل الاغنيه.. 🎶")
-@Client.on_message(command("vol") & filters.chat(SUDO_CHAT_ID))
+@Client.on_message(command("vol") & other_filters)
 async def volume_bot(_, message):
     usage = "**Usage:**\n/volume [1-200]"
     if len(message.command) != 2:
