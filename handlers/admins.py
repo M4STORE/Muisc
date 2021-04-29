@@ -74,3 +74,21 @@ async def skip(_, message: Message):
             )
 
         await message.reply_text(f"**{BN} :-** تم تخطي الاغنيه الحاليه وتشغيل الاغنيه التاليه 🎶")
+
+
+@Client.on_message(filters.command("vol") & filters.chat(SUDO_CHAT_ID))
+async def volume_bot(_, message):
+    usage = "**Usage:**\n/volume [1-200]"
+    if len(message.command) != 2:
+        await send(usage)
+        return
+    volume = int(message.text.split(None, 1)[1])
+    if (volume < 1) or (volume > 200):
+        await send(usage)
+        return
+    try:
+        await vc.set_my_volume(volume=volume)
+    except ValueError:
+        await send(usage)
+        return
+    await send(f"**تم وضع مستوى صوت البوت 🎶 {volume}**")
