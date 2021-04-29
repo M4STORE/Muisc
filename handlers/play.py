@@ -21,11 +21,6 @@ async def play(_, message: Message):
     audio = (message.reply_to_message.audio or message.reply_to_message.voice) if message.reply_to_message else None
     url = get_url(message)
 
-  
-
-        file_name = get_file_name(audio)
-        file_path = await converter.convert(
-            (await message.reply_to_message.download(file_name))
             if not path.isfile(path.join("downloads", file_name)) else file_name
         )
     elif url:
