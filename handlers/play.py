@@ -20,7 +20,15 @@ from helpers.gets import get_url, get_file_name
 async def play(_, message: Message):
     audio = (message.reply_to_message.audio or message.reply_to_message.voice) if message.reply_to_message else None
     url = get_url(message)
+    if audio:
+        if round(audio.duration / 100) > DURATION_LIMIT:
+            raise DurationLimitError(
+                f"**{bn} :-**  يجب ان يكون حجم مقطع الصوت  {DURATION_LIMIT} minute(s) لايمكن تحميل \n المقطع هذا لان حجمه {audio.duration / 100} minute(s)"
+            )
 
+        file_name = get_file_name(audio)
+        file_path = await converter.convert(
+            (await message.reply_to_message.download(file_name))
             if not path.isfile(path.join("downloads", file_name)) else file_name
         )
     elif url:
